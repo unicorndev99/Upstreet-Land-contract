@@ -11,7 +11,6 @@ contract UpstreetLand is ERC721A, Ownable {
     constructor() ERC721A("Upstreet Land", "LAND") {}
 
     function mint(address to, uint256 quantity) external payable {
-        // `_mint`'s second argument now takes in a `quantity`, not a `tokenId`.
         _mint(to, quantity);
     }
 

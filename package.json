@@ -1,14 +1,14 @@
 {
   "name": "contracts",
   "version": "1.0.0",
-  "description": "WrappedOrdinal Contracts",
+  "description": "UpstreetLand Contracts",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WrappedOrdinals/OrdinalEthContract.git"
+    "url": "git+https://github.com/unicorndev99/Upstreet-Land-contract.git"
   },
   "scripts": {
     "deploy-mainnet": "truffle migrate --network mainnet",
@@ -17,16 +17,16 @@
     "deploy-goerli-reset": "truffle migrate --network goerli --reset",
     "deploy-polygon": "truffle migrate --network polygon",
     "deploy-polygon-reset": "truffle migrate --network polygon --reset",
-    "deploy-verify-mainnet": "truffle run verify WrappedOrdinals --network mainnet",
-    "deploy-verify-polygon": "truffle run verify WrappedOrdinals --network polygon",
-    "deploy-verify-goerli": "truffle run verify WrappedOrdinals --network goerli"
+    "deploy-verify-mainnet": "truffle run verify UpstreetLand --network mainnet",
+    "deploy-verify-polygon": "truffle run verify UpstreetLand --network polygon",
+    "deploy-verify-goerli": "truffle run verify UpstreetLand --network goerli"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/WrappedOrdinals/OrdinalEthContract/issues"
+    "url": "https://github.com/unicorndev99/Upstreet-Land-contract/ssues"
   },
-  "homepage": "https://github.com/WrappedOrdinals/OrdinalEthContract#readme",
+  "homepage": "https://github.com/unicorndev99/Upstreet-Land-contract#readme",
   "dependencies": {
     "@a16z/contracts": "^0.0.8",
     "@openzeppelin/contracts": "^4.7.0",
